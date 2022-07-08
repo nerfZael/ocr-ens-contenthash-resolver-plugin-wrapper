@@ -11,12 +11,6 @@ import {
 import { PluginFactory } from "@polywrap/core-js";
 import { OcrId, decodeOcrIdFromContenthash } from "@nerfzael/ocr-core";
 
-export type Address = string;
-
-export interface Addresses {
-  [network: string]: Address;
-}
-
 export interface OcrEnsContenthashResolverPluginConfig {
 }
 
