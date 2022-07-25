@@ -1046,20 +1046,20 @@
   resolved "https://registry.yarnpkg.com/@multiformats/base-x/-/base-x-4.0.1.tgz#95ff0fa58711789d53aefb2590a8b7a4e715d121"
   integrity sha512-eMk0b9ReBbV23xXU693TAIrLyeO5iTgBZGSJfpqriG8UkYvr/hC9u9pyMlAakDNHWmbhMZCDs6KQO0jzKD8OTw==
 
-"@nerfzael/encoding@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@nerfzael/encoding/-/encoding-0.1.1.tgz#a4a1c55d14e9432e52ed8838b32e51df6f7b95d6"
-  integrity sha512-4RFasPFH9ZJiDnK22UXKF4jla/5JosrBuChXQtfkjZ6BLSm7qnqygAFFIj4BAZc1l7Bv/rwpkfELm9HOidmqog==
+"@nerfzael/encoding@0.2.5":
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/@nerfzael/encoding/-/encoding-0.2.5.tgz#ca120f9ee8d411297238122a425cfb6072ba7e43"
+  integrity sha512-uDLkOSONp+v6y8MQde+6xWfQsa0sVA6weSp8aX7V85SG1bD1VDdA+a+13T/YAgfEhq9VjJ8iwNcIT/uVKj9I0g==
   dependencies:
     ethers "5.6.9"
     typescript "4.4.2"
 
-"@nerfzael/ocr-core@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@nerfzael/ocr-core/-/ocr-core-0.1.0.tgz#d0442f8e6c9a26b6ee68b059f8c1d208c99ebb63"
-  integrity sha512-L5FX2zMBlrB3y6G4P1KltoDwcOE5XpdnPM6tv97vJ/vvUfmL7atcRjOjTqXWbBbb7hxcp4FUqVYCUyWwcWzleQ==
+"@nerfzael/ocr-core@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@nerfzael/ocr-core/-/ocr-core-0.4.0.tgz#39f08c606e3b7272a407648ae837562931562f05"
+  integrity sha512-490W9XOrsXMIK9GFBBprIht4lmvAbLXx4V1eBToUbuWf7jy7SCJTt5bnrR1WkQz43NYC/dMDFbUa/rGGjUx1uw==
   dependencies:
-    "@nerfzael/encoding" "0.1.1"
+    "@nerfzael/encoding" "0.2.5"
     ethers "5.6.9"
     typescript "4.4.2"
 

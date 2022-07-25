@@ -23,8 +23,6 @@ export class OcrEnsContenthashResolverPlugin extends Module<OcrEnsContenthashRes
     args: Args_tryResolveUri,
     client: Client
   ): Promise<UriResolver_MaybeUriOrManifest | null> {
-    let ocrId: OcrId;
-
     if (args.authority === "ens-contenthash") {
       const result = decodeOcrIdFromContenthash(args.path);
 
